@@ -37,7 +37,7 @@ body{
 }
 .navbar a:hover,
 .navbar a.active {
-    color: #00abf0;
+    color: #13D8E1;
 }
 
 .home {
@@ -56,11 +56,12 @@ body{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
+    color: black;
 }
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #00abf0;
+    color: #13D8E1;
 }
 .home-content p {
     font-size: 16px;
@@ -81,8 +82,8 @@ body{
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
-    border: 2px solid #00abf0;
+    background: #13D8E1;
+    border: 2px solid #13D8E1;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
@@ -94,17 +95,17 @@ body{
     transition: .5s;
 }
 .btn-box a:hover{
-    color: #00abf0;
+    color: #13D8E1;
 }
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #00abf0;
+    color: #13D8E1;
 }
 .btn-box a:nth-child(2):hover {
     color: #081b29;
 }
 .btn-box a:nth-child(2)::before {
-    background: #00abf0;
+    background: #13D8E1;
 }
 .btn-box a::before {
     content: '';
@@ -136,10 +137,10 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #13D8E1;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #13D8E1;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -155,7 +156,7 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
+    background: #13D8E1;
     z-index: -1;
     transition: .5s;
 }
