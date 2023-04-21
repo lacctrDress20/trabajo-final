@@ -58,7 +58,7 @@ body{
     line-height: 1.2;
     color: black;
 }
-.home-content h3 {
+.home-content h2 {
     font-size: 32px;
     font-weight: 700;
     color: #13D8E1;
@@ -170,7 +170,7 @@ body{
 }
 /* ________________________ */
 
-.home .profession-container {
+.second .profession-container {
     position: absolute;
     top: 50%;
     right: 0;
@@ -180,19 +180,18 @@ body{
     overflow: hidden;
     pointer-events: none;
 }
-.home .profession-container .profession-box {
+.second .profession-container .profession-box {
     position: absolute;
     top: 0;
     right: 0;
     width: 768px;
     height: 768px;
-    background: #081b29;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.home .profession-box .profession{
+.second .profession-box .profession{
     position: absolute;
     left: 0;
     display: flex;
@@ -201,5 +200,18 @@ body{
     color: #13D8E1;
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
-
+}
+.second .profession i {
+    font-size: 3.8rem;
+}
+.second .profession h3 {
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 600;
+}
+.second .profession-box .circle{
+    width: 500px;
+    height: 560px;
+    border: 3px solid #13D8E1;
+    border-radius: 50%;
 }
