@@ -300,3 +300,13 @@ span {
     align-items: center;
     gap: 2.5rem;
 }
+.portafolio-container .profession-box {
+    position: relative;
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0,0,0, .1);
+    overflow: hidden;
+}
+.profession-box img{
+    width: 100%;
+}
