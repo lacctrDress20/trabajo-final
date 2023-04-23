@@ -35,6 +35,11 @@ body {
     display: flex;
     align-items: center;
     z-index: 100;
+    transition: .5s;
+}
+.header.Sticky {
+    background: var(--bg-color);
+    box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
 .logo {
     font-size: 2.5rem;
@@ -49,6 +54,12 @@ body {
     color: var(--white-color);
     font-weight: 500;
     margin-right: 3.5rem;
+}
+.header.Sticky .navbar a {
+    color: var(--text-color);
+}
+.header.Sticky .navbar a.active {
+    color: var(--main-color);
 }
 .navbar a.active::before {
     content: '';
@@ -205,10 +216,10 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
 }
 .about-img img {
-    width: 100%;
-    align-items: left;
+    width: 20vw;
 }
 .heading {
     font-size: 4.5rem;
@@ -217,5 +228,11 @@ span {
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
-    
+}
+.about-content h3 {
+    font-size: 2rem;
+}
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
