@@ -83,6 +83,11 @@ body {
     color: var(--text-color);
     opacity: .9;
 }
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
 section {
     min-height: 100vh;
     padding: 10rem 7% 2rem;
@@ -144,7 +149,7 @@ section {
     color: var(--main-color);
     border-color: var(--main-color);
 }
-.home .profession-conteiner {
+.home .profession-container {
     position: absolute;
     top: 50%;
     right: 0;
@@ -154,7 +159,7 @@ section {
     overflow: hidden;
     pointer-events: none;
 }
-.home .profession-conteiner .profession-box {
+.home .profession-container .profession-box {
     position: absolute;
     top: 0;
     right: 0;
@@ -199,7 +204,7 @@ section {
     border: 3px solid var(--main-color);
     border-radius: 50%;
 }
-.home .profession-conteiner .overlay{
+.home .profession-container .overlay{
     position: absolute;
     top: 0;
     right: 0;
@@ -478,4 +483,37 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: #333;
+}
+
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+    .home .profession-container {
+        height: 85.5rem;
+    }
+    .home .profession-container .profession-box {
+        right: -12rem;
+        height: 85.8rem;
+    }
+    .home .profession-container .overlay {
+        right: -9rem;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .home .profession-container .profession-box{
+        right: -22rem;
+    }
+    .home .profession-container .overlay{
+        right: 15rem;
+    }
 }
